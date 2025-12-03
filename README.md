@@ -48,7 +48,7 @@ Primitive -w/o bracket (copy created ) string ,number ,null(empty),undefined,boo
 
 Reference -with bracket() array,object,functions
 
-### Js is Dynamically Typed language(because we need not to define its variable type before execution of program)
+ Js is Dynamically Typed language(because we need not to define its variable type before execution of program)
 
 ### typeof(null)=objects rest primitve same as their name
 ### typeof(<any function>)=function(object function)
@@ -62,32 +62,28 @@ primitive data type stored in stack(copy created) and non primitive stored in he
 
 strings are immutable means any case original string can not change
 
- <string_name>.slice(start_given,last_given)  
-
-```
-If start > end → returns (empty string)
+ <string_name>.slice(start_given,last_given)
+```If start > end → returns (empty string)
      else
-	num= length -negative value --> slice(num,last_given)
+	num= length -negative value --> slice(num,last_given)	
 ```
-
-### string_name.substring(start_given,last_given) 
-```  
-If start > end → returns "" (swap values)
+### string_name.substring(start_given,last_given)  
+```If start > end → returns "" (swap values)
      else
 	num= length -negative value --> slice(0,last_given)
-	``` 
+``` 
 
-### <string_name>.trim()removesextra space from startand end of the string
+#### <string_name>.trim() removes extra space from the start and end of the string
 
-### <string_name>.replace(kya,kisse)==1st occur and <string_name>.replaceAll(kya,kisse)==All replace
+#### <string_name>.replace(kya,kisse)==1st occur and <string_name>.replaceAll(kya,kisse)==All replace
 
-### <string_name>.includes(kya) -->start to end check
-### <string_name>.split("based on what")
+#### <string_name>.includes(kya) -->start to end check
+#### <string_name>.split("based on what")
 
 ## Numbers
 
 ```
-> num.toString(); -->can convert number to string and performstring operations
+> num.toString(); -->can convert a number to string and perform string operations
 
 > number.toFixed(2); -->convert decimal to 2 precision(any precision value)
 
