@@ -1,4 +1,4 @@
-# JavaScript
+## JavaScript
 Practice Code and small Projects using JS
 
 Cheat-Sheet for JS-
@@ -14,6 +14,7 @@ We can print it as undefined before access.
 var(gopi bahu)
 const
 let
+```
 Redaclaration -Yes
 Redaclaration -No
 Redaclaration -No
@@ -30,6 +31,7 @@ Hoisting-Yes
 (value set nahi-Reference error)
 Hoisting-Yes
 (We can not access a variable before initialisation ->also gives an error of the same)Reference error
+```
 
 Global declared variables can be accessed everywhere.
 Var is a function-based outside of the function, it can not be accessed.
@@ -38,6 +40,6 @@ Const obj={name:”diksha”}
 obj.name=”radha” (true-->updation of property value allowed)
 obj={};(false→ressigning of values are not allowed)
 object.freeze(namei);  →object property does not change by user 
-DATA TYPES:
+## DATA TYPES:
 Primitive -w/o bracket                            Reference -with bracket
 
