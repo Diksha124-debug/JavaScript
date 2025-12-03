@@ -14,38 +14,21 @@ Var a=undefined;(this will go to the top line)
 a=90;
 Isi wjh se we can print it as undefined before access.
 
-var(gopi bahu)
-const
-let
-Redaclaration -Yes
-Redaclaration -No
-Redaclaration -No
-Scope-function(inside the fun anywhere)
-Scope-block{only inside the block where defined}
-Scope-block{}
-Temporal Dead Zone-No
-undefined
-Temporal Dead Zone-Yes
-Temporal Dead Zone-Yes
-Hoisting-Yes
-(value set undefined)
-Hoisting-Yes
-(value set nahi-Reference error)
-Hoisting-Yes
-(We can not access a variable before initialisation ->also gives an error of the same)Reference error
+```
+var(gopi bahu) const let difference-
+edaclaration -Yes No No
+* Scope-function(inside the fun anywhere) 
+
+* Temporal Dead Zone-No(undefined) Yes Yes
+
+* Hoisting-Yes(value set undefined) Yes(value set nahi-Reference error) Yes(We can not access a variable before initialisation ->also gives an error of the same)Reference error
+
+```
 
 Global declared variables can be accessed everywhere.
 Var is a function-based outside of the function, it can not be accessed.
 Let it be block-based (curly braces), and outside it, we can not access.
-1)var(gopi bahu)
-2)const
-3)let
-## Redaclaration -Yes No No
-## Scope-function(inside the fun anywhere) 
 
-## Temporal Dead Zone-No(undefined) Yes Yes
-
-## Hoisting-Yes(value set undefined) Yes(value set nahi-Reference error) Yes(We can not access a variable before initialisation ->also gives an error of the same)Reference error
 
 ### Global declared variables can be accessed everywhere.
 ### Var is function-based outside of the function can not be accessed.
@@ -58,11 +41,8 @@ obj={};(false→ressigning of values are not allowed)
 
 ````object.freeze(namei);  →object property does not change by user ```
 
-### DATA TYPES:
-Primitive -w/o bracket                            Reference -with bracket
-```
 
-# DATA TYPES:
+## DATA TYPES:
 Primitive -w/o bracket (copy created ) string ,number ,null(empty),undefined,boolean,symbol,bigInt
 
 Reference -with bracket() array,object,functions
@@ -114,4 +94,19 @@ number.toPrecision(n) returns a number formatted to n significant digits.
 number.totalLocaleString('en-In); -->number =100000 o/p 10,00,00
 ```
 *************************MATHS****************************
-## Maths 
+## Maths
+``` 
+Math.round(23.6)    //27
+Math.ceil(23.2)   //24
+Math.floor(23.2)  //23
+Math.abs(23)     //+23 gives always positive value
+Math.min(4,5,6)  //4
+Math.max(4,5,6)  //6
+Math.sqrt(25)  //5
+
+
+*Random number between 22 to 44
+const max=44;
+const min=22;
+Math.floor(Math.random()*(max-min))+min
+```
