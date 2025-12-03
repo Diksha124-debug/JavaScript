@@ -90,10 +90,9 @@ number.toPrecision(n) returns a number formatted to n significant digits.
 ✔ Works on both integer and decimal numbers
 ✔ Returns a string
 ✔ Does rounding when necessary
-
 number.totalLocaleString('en-In); -->number =100000 o/p 10,00,00
 ```
-*************************MATHS****************************
+
 ## Maths
 ``` 
 Math.round(23.6)    //27
@@ -103,8 +102,6 @@ Math.abs(23)     //+23 gives always positive value
 Math.min(4,5,6)  //4
 Math.max(4,5,6)  //6
 Math.sqrt(25)  //5
-
-
 *Random number between 22 to 44
 const max=44;
 const min=22;
