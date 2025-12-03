@@ -1,11 +1,11 @@
 # JavaScript Cheat-Sheet
 
 Cheat-Sheet for JS-
-=======
+
 Skip using var
 Var a;  -->declare variable
 Var a=12;   -->Initialization(1st value assign) of var
-=======
+
 
 ## Temporal Dead Zone →area before the variable gets defined.
 Ek variable jab JS mai banta h to vo variable do parts mai tut jata h and uska declare part sabse top mai chala jata and initialize part neeche rah jata h.
@@ -80,12 +80,15 @@ primitive data type stored in stack(copy created) and non primitive stored in he
 ## String Methods
 strings are immutable means any case original string can not change
 ### <string_name>.slice(start_given,last_given)  
-```  If start > end → returns "" (empty string)
+```
+If start > end → returns (empty string)
      else
 	num= length -negative value --> slice(num,last_given)
 	```
+
 ### <string_name>.substring(start_given,last_given) 
-```  If start > end → returns "" (swap values)
+```  
+If start > end → returns "" (swap values)
      else
 	num= length -negative value --> slice(0,last_given)
 	``` 
