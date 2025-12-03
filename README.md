@@ -10,7 +10,7 @@ Ek variable jab JS mai banta h to vo variable do parts mai tut jata h and uska d
                	Var a=90;
 Var a=undefined;(this will go to the top line)
 a=90;
-Isi wjh se we can print it as undefined before access.
+We can print it as undefined before access.
 var(gopi bahu)
 const
 let
@@ -32,8 +32,8 @@ Hoisting-Yes
 (We can not access a variable before initialisation ->also gives an error of the same)Reference error
 
 Global declared variables can be accessed everywhere.
-Var is function-based outside of the function can not be accessed.
-Let is block-based (curly braces), and outside it, we can not access.
+Var is a function-based outside of the function, it can not be accessed.
+Let it be block-based (curly braces), and outside it, we can not access.
 Const obj={name:”diksha”}
 obj.name=”radha” (true-->updation of property value allowed)
 obj={};(false→ressigning of values are not allowed)
