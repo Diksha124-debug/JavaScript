@@ -31,4 +31,4 @@ myobj.addition=function(){
     console.log(`the name of the user is ${this.name}`);
 
 }
-console.log(myobj.addition())
+console.log(myobj.addition());
