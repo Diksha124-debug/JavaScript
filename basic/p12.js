@@ -23,7 +23,7 @@ const myobj={
 myobj.age=90;
 //console.log(myobj);
 //lock object
-//Object.freeze(myobj)
+Object.freeze(myobj);
 myobj.age=900;
 //console.log(myobj);//does not throw any error
 myobj.addition=function(){
