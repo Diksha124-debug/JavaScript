@@ -35,7 +35,9 @@ edaclaration -Yes No No
 >obj.name=”radha” (true-->updation of property value allowed)
 >obj={};(false→ressigning of values are not allowed)
 
-````object.freeze(namei);  →object property does not change by user```
+```
+object.freeze(namei);  →object property does not change by user
+```
 
 
 ## DATA TYPES:
@@ -55,27 +57,27 @@ edaclaration -Yes No No
 primitive data type stored in stack(copy created) and non primitive stored in heap(original data )
 
 ## String Methods
-
 strings are immutable means any case original string can not change
 
-
- <string_name>.slice(start_given,last_given)
-```If start > end → returns (empty string)
-#### <string_name>.slice(start_given,last_given)  
-
+<string_name>.slice(start_given,last_given)
 ```
 If start > end → returns (empty string)
-     else
-	num= length -negative value --> slice(num,last_given)	
-```
-### string_name.substring(start_given,last_given)  
-```If start > end → returns "" (swap values)
+<string_name>.slice(start_given,last_given)  
 
-#### string_name.substring(start_given,last_given) 
-```  
+If start > end → returns (empty string)
+     else
+	num= length -negative value --> slice(num,last_given)	```
+
+### string_name.substring(start_given,last_given)  
+```
+If start > end → returns "" (swap values)
+
+string_name.substring(start_given,last_given) 
+
 If start > end → returns "" (swap values)
      else
-	num= length -negative value --> slice(0,last_given)``` 
+	num= length -negative value --> slice(0,last_given)
+	``` 
 
 #### <string_name>.trim() removes extra space from the start and end of the string
 #### <string_name>.trim()removesextra space from startand end of the string
@@ -122,3 +124,4 @@ let todayDate=new Date();
 newDate.toString();
 newDate.toLocaleString();
 ```
+>refer p9.js
